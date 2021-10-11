@@ -140,7 +140,48 @@
           $(nameTab).find('.slick2').slick('reinit');          
         });
 
-        $('.date-list').slick({
+        $('#modal-date-list').slick({
+          dots: false,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          arrows: true,
+          prevArrow:'<button class="arrow-slick4 prev-slick4"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+          nextArrow:'<button class="arrow-slick4 next-slick4"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4
+              }
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 5
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+              }
+            }
+          ]
+        });
+
+        $('#detail-date-list').slick({
           dots: false,
           infinite: false,
           speed: 300,
@@ -157,6 +198,40 @@
                 slidesToScroll: 3
               }
             },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 6,
+                slidesToScroll: 6
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 5
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+              }
+            }
+          ]
+        });
+
+        $('#movies-date-list').slick({
+          dots: false,
+          infinite: false,
+          speed: 300,
+          slidesToShow: 8,
+          slidesToScroll: 8,
+          arrows: true,
+          prevArrow:'<button class="arrow-slick4 prev-slick4"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+          nextArrow:'<button class="arrow-slick4 next-slick4"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',  
+          responsive: [
             {
               breakpoint: 992,
               settings: {

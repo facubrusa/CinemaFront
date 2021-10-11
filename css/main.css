@@ -2405,6 +2405,13 @@ input.num-product::-webkit-inner-spin-button {
   text-transform: uppercase;
 }
 
+.mtext-114 {
+  font-family: Poppins-SemiBold;
+  font-size: 22px;
+  line-height: 1.333333;
+  text-transform: uppercase;
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
@@ -2462,6 +2469,12 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Bold;
   font-size: 36px;
   line-height: 1.2;
+}
+
+.ltext-110 {
+  font-family: Poppins-SemiBold;
+  font-size: 35px;
+  line-height: 1.1;
 }
 
 
@@ -2611,6 +2624,11 @@ input.num-product::-webkit-inner-spin-button {
 
 .size-125 {
   min-width: 180px;
+  height: 40px;
+}
+
+.size-126 {
+  width: 110px;
   height: 40px;
 }
 
